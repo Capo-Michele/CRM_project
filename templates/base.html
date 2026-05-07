@@ -2,9 +2,12 @@
 <html>
 <head>
     <title> {{title }} - My site</title>
+    <link rel="stylesheet" href= "{{url_for ('static', filename='styles.css') }}">
+  
+
 </head>
 <body>
-    <header> Site header </header>
+    <header> <h1>Site header</h1> </header>
     <main>
         {% block content %}
         DEFAULT
